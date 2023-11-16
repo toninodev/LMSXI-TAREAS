@@ -1,0 +1,119 @@
+
+
+.imagen {
+  
+    width: 50%; 
+    border: 1px solid black;
+    box-shadow: 0 4px 8px;
+}
+
+.tabla1 {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(27, 25, 25, 0.5);
+}
+
+.tabla1 th {
+  border: 1px solid black
+  
+  
+}
+
+.tabla1 td  {
+  font-size: 13;
+  text-align: left;
+  width: 100%;
+  padding: 3px;
+  border: 1px solid black
+  
+  
+}
+ul {
+  text-align: left;
+}
+body {
+  padding-top: 40px;
+  color: rgb(206, 208, 209);
+  font-family:Georgia,  Times, serif;
+  background-color: rgb(77, 75, 75);
+}
+
+body header {
+  color: rgb(131, 134, 136);
+  text-align: center;
+}
+
+body section {
+  text-align: center;
+
+}
+body ul {
+  box-shadow: 0 4px 8px grey;
+  list-style:decimal;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 30px;
+  
+}
+
+footer {
+  text-align: end;
+  color: rgb(211, 205, 205);
+}
+h3 {
+  color: rgb(43, 45, 45);
+}
+#footer {
+  text-align: left;
+  font-size: 12;
+}
+
+.h2form {
+  text-align: center;
+  color:rgb(204, 164, 111);
+}
+textarea {
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+.form {
+  background-color: antiquewhite;
+}
+.formText {
+  color:rgb(214, 192, 163);
+}
+
+.button {
+  background-color: rgb(176, 134, 80);
+  border-radius: 5px;
+  
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: rgb(106, 104, 101);
+  width: 100%;
+}
+.menu ul {
+  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  width: 100%;
+}
+
+.menu ul li a {
+  color: rgb(51, 44, 44);
+  
+}

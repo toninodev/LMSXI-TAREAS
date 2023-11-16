@@ -1,0 +1,97 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="sopa.html">Sopa de cebolla</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+      <li><a href="datospersonales.html">Datos personales</a></li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="h2form">Datos personales</h2>
+      <form action="form.php" method="post">
+        <label for="nombre" class="formText"><strong>Nombre :</strong></label>
+        <input type="text" name="nombre" id="formNombre" required placeholder="Su nombre aquí" class="form">
+        <br><br>
+        <label for="apellidos" class="formText"><strong>Apellidos :</strong></label>
+        <input type="text" name="apellidos" id="formApellidos" required placeholder="Su apellido aquí" class="form">
+        <br><br>
+        <label for="telefono" class="formText"><strong>Telefono de contacto :</strong></label>
+        <input type="tel" name="telefono" id="formTelefono" required placeholder="Su telefono aquí" class="form">
+        <br><br>
+        <label for="email" class="formText"><strong>Email :</strong></label>
+        <input type="email" name="email" id="formEmail" placeholder="Su email aquí" class="form">
+        <br><br>
+        <label for="numnoches" class="formText"><strong>Numero de noches :</strong></label>
+        <input type="number" name="numnoches" id="formNumnoches" max="20" required placeholder="Maximo 20" class="form">
+        <br>
+      <h2 class="h2form">Datos de la reverva </h2>
+        <label for="dia" class="formText"><strong>Día de Ingreso</strong> :</label>
+        <select name="dia" id="formDia" class="form">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <label for="mes" class="formText"><strong>Mes de ingreso</strong></label>
+        <select name="mes" id="formMes" class="form">
+          <option value="enero">Enero</option>
+          <option value="febrero">Febrero</option>
+          <option value="marzo">Marzo</option>
+          <option value="abril">Abril</option>
+          <option value="mayo">Mayo</option>
+          <option value="junio">Junio</option>
+          <option value="julio">Julio</option>
+          <option value="agosto">Agosto</option>
+          <option value="septiembre">Septiembre</option>
+          <option value="octubre">Octubre</option>
+          <option value="noviembre">Noviembre</option>
+          <option value="diciembre">Diciembre</option>
+        </select>
+        <br><br>
+        <label for="opcion" class="formText" ><strong>Habitacion Simple :</strong></label>
+        <input type="radio" name="opcion" id="formHabitacionsimple" checked class="form">
+        <label for="opcion" class="formText"><strong>Habitacion Doble :</strong></label>
+        <input type="radio" name="opcion" id="formHabitaciondoble" class="form">
+        <br><br>
+        <label for="desayuno" class="formText"><strong>Desea Desayuno :</strong> </label>
+        <input type="checkbox" name="desayuno" id="formDesayuno" >
+        <br>
+        <label for="comida"class="formText"><strong>Desea Comida :</strong></label>
+        <input type="checkbox" name="comida" id="formComida" >
+        <br>
+        <label for="cena"class="formText"><strong>Desea Cena :</strong></label>
+        <input type="checkbox" name="cena" id="formCena" >
+        <br>
+        <label for="camasupletoria"class="formText"><strong>Desea Cama Supletoria :</strong></label>
+        <input type="checkbox" name="camasupletoria" id="formSupletoria">
+        <br><br><br>
+        <label for="textoadicional" class="formText"><strong>Comentarios Adicionales :</strong></label>
+        <br><br>
+        <textarea name="textoadiocional" id="formComentario" cols="35" rows="6"></textarea>
+        <br><br>
+        <label for="resetear"class="formText"><strong>Limpiar Formulario</strong> </label>
+        <input type="reset" name="resetear" id="formReset" class="button">
+        <br><br>
+        <label for="send"class="formText"><strong>Enviar formulario</strong></label>
+        <input type="submit" name="send" id="formSend" class="button">
+
+        
+
+
+    </form>
+    </div>
+</body>
+</html>
